@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.source_files = 'GN_Music_SDK_iOS_3_3_0_14/GracenoteMusicID.framework/Headers/*.h'
   s.preserve_paths = 'GN_Music_SDK_iOS_3_3_0_14/GracenoteMusicID.framework'
-  s.framework = 'CoreMedia', 'QuartzCore', 'MediaPlayer', 'AVFoundation', 'AudioToolbox', 'Security'
+  s.framework = 'CoreMedia', 'QuartzCore', 'MediaPlayer', 'AVFoundation', 'AudioToolbox', 'Security', 'AdSupport'
   s.libraries = 'sqlite3', 'stdc++', 'xml2'
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/GracenoteMusicID/GN_Music_SDK_iOS_3_3_0_14', 'OTHER_LDFLAGS' => '-framework GracenoteMusicID' }
 end

@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary = 'Adds GracenoteMusicID framework to the project'
   s.authors = 'Senthil'
   s.homepage = 'https://developer.gracenote.com/mobile-client'
-  s.source = { :https => 'https://s3.amazonaws.com/SDKs/GN_Music_SDK_iOS_3_3_0_14.zip' }
+  s.source = { :http => 'https://s3.amazonaws.com/SDKs/GN_Music_SDK_iOS_3_3_0_14.zip' }
   s.description = 'Add GracenoteMusicID SDK to your iOS app!'
   s.platform = :ios
   s.source_files = 'GN_Music_SDK_iOS_3_3_0_14/GracenoteMusicID.framework/Headers/*.h'
